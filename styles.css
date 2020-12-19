@@ -1,0 +1,31 @@
+.code {
+    text-align: center;
+    background-color: blue;
+    min-height: 1.5;
+    color: white;
+}
+
+.sign {
+    text-align: center;
+}
+
+.latest {
+    text-align: center;
+}
+
+body {
+    font-family: merriweather, serif;
+}
+
+button {
+    padding: 19px 39px 18px 39px;
+    color: white;
+    background-color:#4bc970;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
