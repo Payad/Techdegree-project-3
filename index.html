@@ -6,6 +6,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <!-- Use satisfy, cursive; for font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
         <!-- Use merriweather, serif; for font -->
         <link rel="stylesheet" href="styles.css">
@@ -22,6 +25,8 @@
             <p class="latest">Get the latest news how your code is doing right in your inbox</p>
 
             <br>
+            <hr class="line">
+            <hr class="line2">
 
             <fieldset class="contact-info">
 
@@ -30,29 +35,29 @@
             <div class="flex-pair">
             <label for="Full name">Full Name</label><br>
             <!-- <h3>Full Name</h3> -->
-            <input type="text" id="Full Name" name="user_name" placeholder="required"><br>
+            <input type="text" id="Full Name" name="user_name" placeholder="required">
             </div>
 
             <div class="flex-pair">
-            <label for="Email Address">Email Address</label><br>
+            <label for="Email Address">Email Address</label>
             <!-- <h3>Email Address</h3> -->
-            <input type="email" id="Email Address" name="user_email" placeholder="required"><br>
+            <input type="text" id="Email Address" name="user_email" placeholder="required">
                 </div>
 
                 <div class="flex-pair" id="telephone">
-            <label for="phone number">Phone Number</label><br>
+            <label for="phone number">Phone Number</label>
             <!-- <h3>Phone Number</h3> -->
-            <input type="text" id="phone number" name="user_phone"><br>
+            <input type="text" id="phone number" name="user_phone">
                     </div>
 
             <div class="flex-pair">
-            <label for="Street Address">Street Address</label><br>
+            <label for="Street Address">Street Address</label>
             <!-- <h3>Street Address</h3> -->
-            <input type="text" id="Street Address" name="user_address"><br>
+            <input type="text" id="Street Address" name="user_address">
                         </div>
 
             <div class="flex-pair">
-            <label for="City">City</label><br>
+            <label for="City">City</label>
             <!-- <h3>City</h3> -->
             <input type="text" id="City" name="user_city">
                 </div>
@@ -60,6 +65,7 @@
             <div class="flex-pair">
             <label for="State">State</label>
             <select id="State" name="user_state">
+                <option disabled hidden selected>Choose State</option>
                 <option value="Alabama">Alabama</option>
                 <option value="Alaska">Alaska</option>
                 <option value="Arizona">Arizona</option>
@@ -127,14 +133,14 @@
 
         </fieldset>
 
-            
+            <hr class="line3">
 
-            <fieldset>
+            <fieldset class="flex">
 
                 <!-- <legend><span class="number">2</span>Newsletter</legend> -->
-                <div class="flex-pair">
+                <div class="flex-pair" >
             <label class="news">Newsletter</label>
-            <p>Select the Newsletter you would like to receive</p>
+            <p class="select">Select the Newsletter you would like to receive</p>
             <div class="html">
             <input type="checkbox" id="HTML News" value="HTML" name="user_html"><label class="light" for="HTML">HTML News</label>
         </div>
@@ -160,12 +166,17 @@
 
             </fieldset>
 
-            <fieldset>
+            <fieldset class="flex1">
                 
                 <div class="flex-pair">
-                <p>Other topics you would like to hear about?</p>
-                <label for="bio" class="light">bio</label>
-            <textarea id="bio" name="user_bio"></textarea>
+                <label class="other">Other topics you would like to hear about?</label>
+                <!-- <label for="bio" class="light">bio</label> -->
+                <!-- <label>Topics</label> -->
+                </div>
+                <div>
+                <textarea id="bio" name="user_bio">
+
+                </textarea>
                     </div>
 
 
@@ -177,7 +188,7 @@
         </body>
 
         <footer>
-            <p>@Copy, Copyright The Code Review</p>
+            <p class="copyright">Copyright The Code Review</p>
         </footer>
 
 

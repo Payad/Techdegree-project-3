@@ -13,24 +13,105 @@ body {
 
 .legend {
     margin-top: 25px;
+    font-size: 18px;
+    margin-left: -51px;
 }
 
 header {
     background-color: #093145;
     margin: 0 auto;
-   
+    font-size: 12px;
+    padding: 0;
+    width: 100%;
 }
 
-/* .class {
-    font-size: 20px;
+    input[type=text] { 
+    width: 150%;
+    /* padding: 12px 20px 12px 14px; */
+    margin: 8px 0;
+    border-radius: 5%; 
+    margin-left: -50px;
+    background-color:#E6E6FA;
+    padding: 0 0 0 200px;
+    /* margin-right: 5px; */
+    }
+
+    input[type=checkbox] {
+        margin-right: 10px;
+    }
+
+    input[type=radio] {
+        margin-right: 10px;
+    }
+
+    .light {
+        font-size: 14px;
+        /* margin-top: -10px; */
+    }
+
+    
+    textarea {
+        /* margin-top: 20px; */
+        max-width: 100%;
+        height: 100px;
+        padding-right: 140px;
+    }
+
+    
+    #bio {
+        background-color:#E6E6FA;
+        /* margin-top: 20px; */
+
+    }
+
+
+
+/* input[type=radio] {
+    margin-left: 10px;
 } */
 
 .flex-pair {
     margin-bottom: 25px;
+    border: none;
 }
+
+.flex {
+    margin-left: -15px;
+}
+
+.flex1 {
+    margin-left: -14px;
+}
+
+.line {
+    border: 2px solid black;
+    margin-bottom: -6px;
+    /* margin-right: 38px; */
+}
+
+.line2 {
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    /* margin-right: 38px; */
+
+}
+
+.line3 {
+    border: 1px solid black;
+    /* margin-right: 38px; */
+    margin-bottom: 38px;
+    margin-top: -30px;
+}
+
 
 .contact-info {
     padding: 50px 50px 35px 50px;
+    border: none;
+    font-size: 14px;
+}
+
+fieldset {
+    border: none;
 }
 
 .contact-info label {
@@ -43,24 +124,28 @@ header {
     margin-bottom: 15px;
 }
 
-#telephone {
+/* #telephone {
     max-width: 50%;
-}
+} */
 
 .code {
     text-align: center;
-    background-color: blue;
-    min-height: 1.5;
+    /* background-color: blue; */
+    /* min-height: 1.5; */
     color: white;
+    margin-left: -20px;
 }
 
 .sign {
     text-align: center;
-    font-size: 22px;
+    font-size: 15px;
+    margin-left: -20px;
 }
 
 .latest {
     text-align: center;
+    font-size: 15px;
+    margin-left: -10px;
 }
 
 body {
@@ -68,21 +153,43 @@ body {
 }
 
 .html {
-    padding-bottom: 10px;
+    padding-bottom: 14px;
 }
 
 .css {
-    padding-bottom: 10px;
+    padding-bottom: 14px;
 }
 
 .javascript {
     margin-bottom: 10px;
 }
 
+.other {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
 .radio {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
+.copyright {
+    text-align: center;
+    color:#D3D3D3;
+    font-family: Satisfy, cursive;
+
+}
+
+.select {
+    font-size: 14px;
+    margin-top: 20px
+}
+
+/* .news {
+    margin-bottom: 20px;
+    font-weight: bold;
+} */
 
 
 
