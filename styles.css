@@ -4,44 +4,50 @@
 
 body {
     margin: 0 auto;
-    max-width: 768px;
+  
     font-family: merriweather, serif;
     font-weight: 200;
-    /* background-color: #093145; */
-    /* color: #fff; */
+   
 }
 
 .legend {
     margin-top: 25px;
     font-size: 18px;
-    margin-left: -51px;
-}
+    /* margin-left: -51px;*/
+} 
 
 header {
     background-color: #093145;
     margin: 0 auto;
-    font-size: 12px;
+    font-size: 7px;
     padding: 0;
     width: 100%;
+    /* height: 12vh; */
+    margin-left: -20px;
+    padding-top: 20px;
+    padding-bottom: 12px;
 }
 
-    input[type=text] { 
-    width: 150%;
-    /* padding: 12px 20px 12px 14px; */
-    margin: 8px 0;
-    border-radius: 5%; 
-    margin-left: -50px;
-    background-color:#E6E6FA;
-    padding: 0 0 0 200px;
-    /* margin-right: 5px; */
-    }
+input[type=text] { 
+    /* width: 150%; */
+width: 100%;
+/* padding: 12px 20px 12px 14px; */
+margin: 8px 0;
+border-radius: 5%; 
+/* margin-left: -50px; */
+background-color:#E6E6FA;
+padding: 0 0 0 200px;
+/* margin-right: 5px; */
+}
 
     input[type=checkbox] {
         margin-right: 10px;
+        /* width: 100%; */
     }
 
     input[type=radio] {
         margin-right: 10px;
+        /* width: 100%; */
     }
 
     .light {
@@ -87,12 +93,14 @@ header {
     border: 2px solid black;
     margin-bottom: -6px;
     /* margin-right: 38px; */
+    margin-right: 60px;
 }
 
 .line2 {
     border: 1px solid grey;
     margin-bottom: 20px;
     /* margin-right: 38px; */
+    margin-right: 60px;
 
 }
 
@@ -101,11 +109,12 @@ header {
     /* margin-right: 38px; */
     margin-bottom: 38px;
     margin-top: -30px;
+    margin-right: 60px;
 }
 
 
 .contact-info {
-    padding: 50px 50px 35px 50px;
+    /* padding: 50px 50px 35px 50px; */
     border: none;
     font-size: 14px;
 }
@@ -116,7 +125,7 @@ fieldset {
 
 .contact-info label {
     margin-bottom: 10px;
-    margin-left: -50px;
+    /* margin-left: -50px; */
 }
 
 .contact-info input {
@@ -124,22 +133,17 @@ fieldset {
     margin-bottom: 15px;
 }
 
-/* #telephone {
-    max-width: 50%;
-} */
 
 .code {
     text-align: center;
-    /* background-color: blue; */
-    /* min-height: 1.5; */
     color: white;
     margin-left: -20px;
 }
 
 .sign {
     text-align: center;
-    font-size: 15px;
-    margin-left: -20px;
+    font-size: 10px;
+    margin-left: -59px;
 }
 
 .latest {
@@ -186,12 +190,6 @@ body {
     margin-top: 20px
 }
 
-/* .news {
-    margin-bottom: 20px;
-    font-weight: bold;
-} */
-
-
 
 button {
     padding: 19px 39px 18px 39px;
@@ -214,7 +212,8 @@ form {
 
 @media (min-width: 768px) {
     .contact-info .flex-pair {
-        flex-direction: flow;
+        display: flex;
+        /* flex-direction: flow; */
     }
 
     .contact-info input {
@@ -228,7 +227,7 @@ form {
         margin: auto 0;
     }
 
-    #telephone {
+    /* #telephone {
         max-width: 25%;
-    }
+    } */
 }
