@@ -37,25 +37,25 @@
             <div class="flex-pair">
             <label for="Full-Name">Full Name</label>
             <!-- <h3>Full Name</h3> -->
-            <input type="text" id="Full-Name" name="user_name" placeholder="required">
+            <input type="text" id="Full-Name" name="user_name" placeholder="required" required>
             </div>
 
             <div class="flex-pair">
             <label for="Email-Address">Email Address</label>
             <!-- <h3>Email Address</h3> -->
-            <input type="text" id="Email-Address" name="user_email" placeholder="required">
+            <input type="email" id="Email-Address" name="user_email" placeholder="required" required>
                 </div>
 
                 <div class="flex-pair" id="telephone">
             <label for="phone-number">Phone Number</label>
             <!-- <h3>Phone Number</h3> -->
-            <input type="text" id="phone-number" name="user_phone" placeholder="required">
+            <input type="text" id="phone-number" name="user_phone" placeholder="required" required>
                     </div>
 
             <div class="flex-pair">
             <label for="Street-Address">Street Address</label>
             <!-- <h3>Street Address</h3> -->
-            <input type="text" id="Street-Address" name="user_address" placeholder="required">
+            <input type="text" id="Street-Address" name="user_address" placeholder="required" required>
                         </div>
 
             <div class="flex-pair">
@@ -130,7 +130,7 @@
                <div class="flex-pair">
             <label for="Zip-code">Zip code</label><br>
             <!-- <h3>Zip Code</h3> -->
-            <input type="text" id="Zip-code" name="user_zip">
+            <input type="number" id="Zip-code" name="user_zip">
                 </div>
 
         </fieldset>
@@ -141,10 +141,10 @@
 
                 <!-- <legend><span class="number">2</span>Newsletter</legend> -->
                 <div class="flex-pair" >
-            <label class="news">Newsletter</label>
+            <legend class="news">Newsletter</legend>
             <p class="select">Select the Newsletter you would like to receive</p>
             <div class="html">
-            <input type="checkbox" id="HTML-News" value="HTML" name="user_html"><label class="light" for="HTML">HTML News</label>
+            <input type="checkbox" id="HTML-News" value="HTML" name="user_html"><label class="light" for="HTML-News">HTML News</label>
         </div>
             <div class="css">
             <input type="checkbox" id="CSS-News" value="CSS" name="user_CSS"><label class="light" for="CSS-News">CSS News</label>
@@ -158,7 +158,7 @@
             <div class="flex-pair">
             <label>Newsletter format</label>
             <div class="radio">
-            <input type="radio" id="HTML" value="HTML" name="user_newsletter"><label for="HTML" class="light">HTML</label><br>
+            <input type="radio" id="HTML" value="HTML" name="user_newsletter"><label for="HTML" class="light">HTML</label>
             </div>
 
             <div class="radio">
@@ -168,7 +168,7 @@
 
             </fieldset>
 
-            <fieldset class="flex1">
+            <label class="flex1">
                 
                 <div class="flex-pair">
                 <label class="other">Other topics you would like to hear about?</label>
@@ -182,7 +182,7 @@
                     </div>
 
 
-            </fieldset>
+                </label>
 
             <button type="submit">Sign up</button>
 
