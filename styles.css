@@ -130,6 +130,7 @@ fieldset {
 
 fieldset.flex {
     font-size: 14px;
+    background-color: lightsteelblue;
 }
 
 .contact-info label {
@@ -232,6 +233,21 @@ form {
     max-width: 900px;
 }
 
+/* input[type=text]:focus {
+    width: 250px;
+    background-color: yellow;
+} */
+
+input[type=email]:focus {
+    width: 250px;
+    /* background-color: yellow; */
+}
+
+input[type=text]:focus {
+    transition: background-color 2s;
+    background-color: yellow;
+}
+
 @media (min-width: 768px) {
     .contact-info .flex-pair {
         display: flex;
@@ -271,6 +287,7 @@ form {
         width: 59vh;
         /* padding-right: 200px; */
         text-align: right;
+        padding-right: 4px;
     }
 
     .latest {
