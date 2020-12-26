@@ -33,38 +33,33 @@
             <fieldset class="contact-info">
 
             <legend class="legend">Contact Information</legend> 
-                <!-- <legend><span class="number">1</span>Contact Information</legend> -->
-            <div class="flex-pair">
+                
+            <div class="flex-box">
             <label for="Full-Name">Full Name</label>
-            <!-- <h3>Full Name</h3> -->
             <input type="text" id="Full-Name" name="user_name" placeholder="required" required>
             </div>
 
-            <div class="flex-pair">
+            <div class="flex-box">
             <label for="Email-Address">Email Address</label>
-            <!-- <h3>Email Address</h3> -->
             <input type="email" id="Email-Address" name="user_email" placeholder="required" required>
                 </div>
 
-                <div class="flex-pair" id="telephone">
+                <div class="flex-box" id="telephone">
             <label for="phone-number">Phone Number</label>
-            <!-- <h3>Phone Number</h3> -->
-            <input type="text" id="phone-number" name="user_phone" placeholder="required" required>
+            <input type="tel" id="phone-number" name="user_phone" placeholder="required" required>
                     </div>
 
-            <div class="flex-pair">
+            <div class="flex-box">
             <label for="Street-Address">Street Address</label>
-            <!-- <h3>Street Address</h3> -->
             <input type="text" id="Street-Address" name="user_address" placeholder="required" required>
                         </div>
 
-            <div class="flex-pair">
+            <div class="flex-box">
             <label for="City">City</label>
-            <!-- <h3>City</h3> -->
-            <input type="text" id="City" name="user_city">
+           <input type="text" id="City" name="user_city">
                 </div>
 
-            <div class="flex-pair">
+            <div class="flex-box">
             <label for="State">State</label>
             <select id="State" name="user_state">
                 <option disabled hidden selected>Choose State</option>
@@ -119,18 +114,11 @@
                 <option value="Wisconsin">Wisconsin</option>
                 <option value="Wyoming">Wyoming</option>
                </select>
-               
+            </div>
 
-               
-                   
-            <!-- <h3>State</h3> -->
-            <!-- <input type="text" id="State" name="user_state"> -->
-               </div>
-
-               <div class="flex-pair">
+               <div class="flex-box">
             <label for="Zip-code">Zip code</label><br>
-            <!-- <h3>Zip Code</h3> -->
-            <input type="number" id="Zip-code" name="user_zip">
+           <input type="number" id="Zip-code" name="user_zip">
                 </div>
 
         </fieldset>
@@ -139,9 +127,9 @@
 
             <fieldset class="flex">
 
-                <!-- <legend><span class="number">2</span>Newsletter</legend> -->
-                <div class="flex-pair" >
             <legend class="news">Newsletter</legend>
+                <div class="flex-box" >
+            <!-- <legend class="news">Newsletter</legend> -->
             <p class="select">Select the Newsletter you would like to receive</p>
             <div class="html">
             <input type="checkbox" id="HTML-News" value="HTML" name="user_html"><label class="light" for="HTML-News">HTML News</label>
@@ -155,8 +143,8 @@
         </div>
         </div>
 
-            <div class="flex-pair">
-            <label>Newsletter format</label>
+            <div class="flex-box">
+            <h3>Newsletter format</h3>
             <div class="radio">
             <input type="radio" id="HTML" value="HTML" name="user_newsletter"><label for="HTML" class="light">HTML</label>
             </div>
@@ -168,13 +156,13 @@
 
             </fieldset>
 
-            <label class="flex1">
+            <!-- <label class="flex1"> -->
                 
-                <div class="flex-pair">
-                <label class="other">Other topics you would like to hear about?</label>
-                <!-- <label for="bio" class="light">bio</label> -->
-                <!-- <label>Topics</label> -->
+                <div class="flex-box">
+                    <label class="flex1"></label>
+                <h6 class="other">Other topics you would like to hear about?</h6>
                 </div>
+
                 <div>
                 <textarea id="bio" name="user_bio">
 
@@ -182,7 +170,7 @@
                     </div>
 
 
-                </label>
+               
 
             <button type="submit">Sign up</button>
 
