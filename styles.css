@@ -25,10 +25,15 @@ header {
     padding-bottom: 12px;
 }
 
+input::placeholder {
+    text-align: right;
+    padding-right: 15px;
+}
+
 input[type=text] {   
 width: 100%;
 background-color:#E6E6FA;
-padding: 0 0 0 200px;
+
 
 }
 
@@ -44,9 +49,7 @@ textarea:focus {
 
 input[type=tel] {
     background-color:#E6E6FA;
-    padding-right: 15px;
     width: 100%;
-    text-align: right;
 }
 
 
@@ -58,8 +61,6 @@ input[type=number] {
 input[type=email] {
     background-color:#E6E6FA;
     width: 100%;
-    text-align: right;
-    padding-right: 15px;
 }
 
 input[type=city] {
@@ -163,7 +164,7 @@ h3 {
 .code {
     text-align: center;
     color: white;
-    margin-left: -20px;
+    
 }
 
 .sign {
