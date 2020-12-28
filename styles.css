@@ -111,7 +111,8 @@ input[type=city] {
 }
 
 .flex1 {
-    margin-left: -14px;
+    margin-left: 6px;
+    font-size: 10px;
 }
 
 .line {
@@ -144,6 +145,7 @@ fieldset.flex {
     font-size: 14px;
     background-color: lightsteelblue;
     margin-left: 5px;
+    margin-bottom: 20px;
 }
 
 .contact-info  {
